@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+}
+
+  .contaier{
+    padding: 10px;
+
+    max-width:700px;
+    margin:50px auto; 
+  }
+  .btn{
+  border:none;
+  cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 25px;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+    background-color: #af2f64;
+
+    left: 32%;
+    top: 30%;
+  }
+  .btn:hover{
+    opacity: 0.7;
+  }
+  .addcontaier{
+    position: absolute;
+    background-color:rgb(0, 0, 0,0.2);
+    left:0;
+    right:0;
+    bottom: 0;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addcontaier form {
+width:420px;
+background-color: white;
+display: flex;
+flex-direction: column;
+padding: 50px 40px;
+box-shadow: 5px 5px 10px rgb(0, 0, 0,0.2);
+border-radius: 10px;
+}
+.addcontaier form label{
+  font-size: 18px;
+}
+.addcontaier form input{
+  font-size:18px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+}
+.addcontaier form button{
+  margin-top: 20px;
+}
+.close-btn{
+  cursor: pointer;
+  margin-left: auto;
+  font-size: 30px;
+}
+.tablecontainer{
+  margin-top: 50px;
+  
+
+}
+
+.tablecontainer table thead tr {
+  background-color: #af2f64;
+  color: white;
+}
+.tablecontainer table thead tr th,
+.tablecontainer table tbody tr td{
+min-width: 200px;
+text-align: center;
+padding: 7px;
+border-bottom: 1px solid ;
+border-left: 1px solid ;
+border-right: 1px solid ;
+}
+.btn-edit,.btn-delete{
+  font-size: 20px;
+
+  padding: 5px 10px ;
+  margin: 0px 10px;
+}
+.btn-edit{
+  background-color: rgb(94, 210, 94);
+}
+.btn-delete{
+  background-color: red;
+  color: white;
+}
